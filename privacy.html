@@ -225,15 +225,32 @@
 <table>
   <tr><th>외부 서비스</th><th>전달되는 정보</th><th>목적</th></tr>
   <tr>
-    <td>Open-Meteo (날씨 API)</td>
-    <td>러닝 시작 지점의 <strong>대략적인 위치</strong>와 시작 시각<br><span style="color:var(--muted)">회원님을 식별할 수 있는 정보는 함께 전달되지 않습니다.</span></td>
-    <td>러닝 기록에 표시할 날씨·기온 조회</td>
+    <td>Open-Meteo (날씨 API)<br><span style="color:var(--muted)">OpenMeteo GmbH · 스위스</span></td>
+    <td>러닝 <strong>시작 지점의 위치(위도·경도)</strong>와 시작 시각<br><span style="color:var(--muted)">회원님을 식별할 수 있는 정보는 함께 전달되지 않습니다.</span></td>
+    <td>러닝 기록에 남길 날씨·기온 조회</td>
   </tr>
   <tr>
     <td>네이버 지도<br>(NAVER Cloud Platform Maps)</td>
     <td>지도 화면에 <strong>표시할 영역의 좌표</strong><br><span style="color:var(--muted)">이동 경로는 앱이 지도 위에 겹쳐 그리는 것이라 네이버에 전달되지 않으며, 회원님을 식별할 수 있는 정보도 함께 전달되지 않습니다.</span></td>
     <td>러닝 경로를 표시할 지도 배경 제공</td>
   </tr>
+</table>
+</div>
+
+<h3>국외로 이전되는 개인정보</h3>
+
+<p>위 외부 서비스 중 <strong>Open-Meteo는 국외 사업자</strong>입니다. 아래와 같이 개인정보가 국외로 이전됩니다.</p>
+
+<div class="scroll">
+<table>
+  <tr><th>항목</th><th>내용</th></tr>
+  <tr><td>이전받는 자</td><td>OpenMeteo GmbH (문의: <a href="https://open-meteo.com/en/terms">open-meteo.com/en/terms</a>)</td></tr>
+  <tr><td>이전되는 국가</td><td>스위스. 요청은 유럽·북미에 분산된 서버로 전달될 수 있습니다.</td></tr>
+  <tr><td>이전 항목</td><td>러닝 시작 지점의 위도·경도, 시작 시각</td></tr>
+  <tr><td>이전 시기와 방법</td><td>러닝을 종료해 기록을 만드는 시점에 HTTPS로 1회 조회</td></tr>
+  <tr><td>이용 목적</td><td>해당 지점·시각의 날씨와 기온 조회</td></tr>
+  <tr><td>보유 및 이용 기간</td><td>Open-Meteo가 공개한 정책에 따라 요청 기록은 최대 90일 후 삭제됩니다.</td></tr>
+  <tr><td>거부 방법과 효과</td><td>러닝 기록 기능을 이용하지 않으면 이전되지 않습니다. 기능을 이용하면서 이 이전만 따로 거부할 수는 없습니다.</td></tr>
 </table>
 </div>
 
