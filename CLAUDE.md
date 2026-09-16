@@ -1,23 +1,23 @@
 # 작업 규칙
 
-Runiverse 법적 고지 문서. 빌드 없음 — `main` 푸시가 곧 배포다.
+Runiverse 법적 고지 문서. 빌드 없음 — `main`의 `docs/`가 사이트 루트이고, 푸시가 곧 배포다.
 
 ## 파일명 고정
 
-`privacy.html`, `account-deletion.html`의 주소는 앱 `LegalLinks` 상수와 Google Play 콘솔에 등록돼 있다. 파일명을 바꾸면 배포된 앱의 링크가 죽는다. 개정해도 주소는 그대로 두고 내용만 교체한다.
+`docs/privacy.html`, `docs/account-deletion.html`의 주소는 앱 `LegalLinks` 상수와 Google Play 콘솔에 등록돼 있다. 파일명을 바꾸면 배포된 앱의 링크가 죽는다. 개정해도 주소는 그대로 두고 내용만 교체한다.
 
 ## 방침 개정은 2단계
 
 §12에서 시행 전 공지를 약속했다. **시행일에 덮어쓰기만 하면 약속 위반이다.**
 
 1. **사전 공지** — 본문은 두고 상단에 변경 내용과 새 시행일만 안내. 중대한 변경은 시행 30일 전까지.
-2. **시행일** — 기존 `privacy.html`을 `privacy/archive/<기존 시행일>.html`로 복사(`2026-09-02.html` 형식) → `privacy/archive/index.html`에 기존 버전 종료일과 새 행 기입 → `privacy.html` 교체, 사전 공지 문구 제거.
+2. **시행일** — 기존 `docs/privacy.html`을 `docs/archive/<기존 시행일>.html`로 복사(`2026-09-02.html` 형식) → `docs/archive/index.html`에 기존 버전 종료일과 새 행 기입 → `docs/privacy.html` 교체, 사전 공지 문구 제거.
 
 ## 아카이브 수정 금지
 
-`privacy/archive/`는 그 시점에 시행 중이던 방침의 기록이다. 오타를 찾아도 덮어쓰지 말고 정정 사실을 따로 표시한다.
+`docs/archive/`는 그 시점에 시행 중이던 방침의 기록이다. 오타를 찾아도 덮어쓰지 말고 정정 사실을 따로 표시한다.
 
-`account-deletion.html`은 아카이빙하지 않는다 — §5의 요약이라 이력이 방침 아카이브에 남는다.
+`docs/account-deletion.html`은 아카이빙하지 않는다 — §5의 요약이라 이력이 방침 아카이브에 남는다.
 
 ## 커밋 메시지
 
