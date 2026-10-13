@@ -6,12 +6,15 @@ Runiverse 법적 고지 문서. 빌드 없음 — `main`의 `docs/`가 사이트
 
 `docs/privacy.html`, `docs/account-deletion.html`의 주소는 앱 `LegalLinks` 상수와 Google Play 콘솔에 등록돼 있다. 파일명을 바꾸면 배포된 앱의 링크가 죽는다. 개정해도 주소는 그대로 두고 내용만 교체한다.
 
-## 방침 개정은 2단계
+## 방침 개정
 
-§12에서 시행 전 공지를 약속했다. **시행일에 덮어쓰기만 하면 약속 위반이다.**
+push한 날 바로 시행한다(따로 공지하지 않는다). 한 커밋에 아래를 함께 한다.
 
-1. **사전 공지** — 본문은 두고 상단에 변경 내용과 새 시행일만 안내. 중대한 변경은 시행 30일 전까지.
-2. **시행일** — 기존 `docs/privacy.html`을 `docs/archive/<기존 시행일>.html`로 복사(`2026-09-02.html` 형식) → `docs/archive/index.html`에 기존 버전 종료일과 새 행 기입 → `docs/privacy.html` 교체, 사전 공지 문구 제거.
+1. 기존 `docs/privacy.html`을 `docs/archive/<기존 시행일>.html`로 복사한다(`2026-10-05.html` 형식).
+2. `docs/archive/index.html` 표에서 기존 방침의 "~ 현재"를 새 시행일 전날로 바꾸고, 새 방침 행을 맨 위에 넣는다.
+3. `docs/privacy.html`을 새 방침으로 바꾸고 시행일을 고친다. 탈퇴 후 처리가 바뀌면 `docs/account-deletion.html`도 고친다.
+
+`privacy.html` 안의 링크는 전체 주소(`https://swm-teambruteforce.github.io/runiverse-legal/...`)로 쓴다 — 그래야 보관함으로 복사해도 링크가 깨지지 않는다.
 
 ## 아카이브 수정 금지
 
