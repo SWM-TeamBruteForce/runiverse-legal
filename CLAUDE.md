@@ -4,7 +4,7 @@ Runiverse 법적 고지 문서. 빌드 없음 — `main`의 `docs/`가 사이트
 
 ## 파일명 고정
 
-`docs/privacy.html`, `docs/account-deletion.html`의 주소는 앱 `LegalLinks` 상수와 Google Play 콘솔에 등록돼 있다. 파일명을 바꾸면 배포된 앱의 링크가 죽는다. 개정해도 주소는 그대로 두고 내용만 교체한다.
+`docs/terms.html`, `docs/privacy.html`, `docs/account-deletion.html`의 주소는 앱 `LegalLinks` 상수와 스토어 콘솔에 등록돼 있다. 파일명을 바꾸면 배포된 앱의 링크가 죽는다. 개정해도 주소는 그대로 두고 내용만 교체한다.
 
 ## 방침 개정
 
